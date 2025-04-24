@@ -1,0 +1,1 @@
+# Implement IsAuthorOrAdminOrReadonly permission class

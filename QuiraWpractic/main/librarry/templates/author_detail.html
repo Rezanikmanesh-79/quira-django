@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ author.name }} - Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 90%;
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+            text-align: center;
+        }
+        p {
+            margin: 10px 0;
+            color: #555;
+        }
+        p strong {
+            color: #333;
+        }
+        .actions {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .actions a {
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            padding: 10px 15px;
+            border-radius: 4px;
+            margin: 0 5px;
+            font-size: 14px;
+            display: inline-block;
+        }
+        .actions a:hover {
+            background-color: #0056b3;
+        }
+        .actions a:last-child {
+            background-color: #6c757d;
+        }
+        .actions a:last-child:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>{{ author.name }}</h2>
+        <p><strong>Biography:</strong> {{ author.bio|default:"N/A" }}</p>
+        <p><strong>Date of Birth:</strong> {{ author.date_of_birth|date:"F j, Y"|default:"Unknown" }}</p>
+        <p><strong>Date of Death:</strong> {{ author.date_of_death|date:"F j, Y"|default:"Still alive" }}</p>
+        <div class="actions">
+            <a href="{% url 'author_update' author.pk %}">Edit Author</a>
+            <a href="{% url 'author_delete' author.pk %}">Delete Author</a>
+            <a href="{% url 'author_list' %}">Back to Author List</a>
+        </div>
+    </div>
+</body>
+</html>

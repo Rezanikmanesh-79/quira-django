@@ -1,0 +1,294 @@
+[
+  {
+    "model": "store.address",
+    "pk": 1,
+    "fields": {
+      "postal_address": "1039 Wolf Pen Road",
+      "city": "Mountain View"
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 2,
+    "fields": {
+      "postal_address": "2089 Abia Martin Drive",
+      "city": "Cocoa"
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 3,
+    "fields": {
+      "postal_address": "4406 Shadowmar Drive",
+      "city": "New Orleans"
+    }
+  },
+  {
+    "model": "store.address",
+    "pk": 4,
+    "fields": {
+      "postal_address": "1041 Allison Avenue",
+      "city": "Chesapeake"
+    }
+  },
+  {
+    "model": "store.company",
+    "pk": 1,
+    "fields": {
+      "name": "Amazon",
+      "address": 4
+    }
+  },
+  {
+    "model": "store.company",
+    "pk": 2,
+    "fields": {
+      "name": "Quera",
+      "address": 3
+    }
+  },
+  {
+    "model": "store.company",
+    "pk": 3,
+    "fields": {
+      "name": "Microsoft",
+      "address": 2
+    }
+  },
+  {
+    "model": "store.company",
+    "pk": 4,
+    "fields": {
+      "name": "Google",
+      "address": 1
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+      "name": "Digital"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+      "name": "Book"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 3,
+    "fields": {
+      "name": "Course"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 4,
+    "fields": {
+      "name": "Hardware"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "name": "Work Desk 1.23m",
+      "price": 3000,
+      "category": 1,
+      "company": 1
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "name": "Display FHD Samsung",
+      "price": 2000,
+      "category": 4,
+      "company": 4
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "name": "Keyboard QHG12-76",
+      "price": 1000,
+      "category": 3,
+      "company": 4
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "name": "TV Control",
+      "price": 10000,
+      "category": 3,
+      "company": 1
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "Mineral Water",
+      "price": 12300,
+      "category": 3,
+      "company": 3
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "name": "Sneaker",
+      "price": 3200,
+      "category": 3,
+      "company": 2
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "name": "Tree Hut Shea Sugar Scrub",
+      "price": 2470,
+      "category": 1,
+      "company": 4
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "name": "Asus Laptop CS12-3781",
+      "price": 8720,
+      "category": 4,
+      "company": 3
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "name": "Gillette5 Men's Razor Blade Refills",
+      "price": 5200,
+      "category": 1,
+      "company": 1
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "name": "Mouse",
+      "price": 3000,
+      "category": 4,
+      "company": 2
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+      "name": "Cloud Services",
+      "price": 2200,
+      "category": 3,
+      "company": 2
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+      "name": "Oculus Quest All-in-one VR Gaming Headset",
+      "price": 2000,
+      "category": 3,
+      "company": 3
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+      "name": "Acer Aspire 5 Slim Laptop",
+      "price": 6000,
+      "category": 3,
+      "company": 3
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+      "name": "Rambler",
+      "price": 890000,
+      "category": 3,
+      "company": 4
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 15,
+    "fields": {
+      "name": "The Last of Us Part II",
+      "price": 200,
+      "category": 1,
+      "company": 1
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 16,
+    "fields": {
+      "name": "Sports Research Sweet Sweat",
+      "price": 499,
+      "category": 4,
+      "company": 2
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 17,
+    "fields": {
+      "name": "High-Speed HDMI Cable",
+      "price": 39,
+      "category": 1,
+      "company": 3
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 18,
+    "fields": {
+      "name": "USB 2.0 Hub",
+      "price": 12100,
+      "category": 4,
+      "company": 4
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 19,
+    "fields": {
+      "name": "Gaming Headset",
+      "price": 1012,
+      "category": 3,
+      "company": 1
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 20,
+    "fields": {
+      "name": "Nintendo Switch",
+      "price": 1000,
+      "category": 3,
+      "company": 2
+    }
+  }
+]

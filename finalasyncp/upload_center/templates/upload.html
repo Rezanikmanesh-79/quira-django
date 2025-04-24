@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <title>آپلود سنتر</title>
+</head>
+<body>
+    {% if success %}
+        <p dir="rtl" style="text-align: left;">
+            فایل شما به نام «{{ form.file_name.value }}» با موفقیت آپلود شد
+        </p>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="آپلود">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booklist</title>
+</head>
+<body>
+<h1>Good Books</h1>
+{% for book in good_books %}
+    <h2>{{ book.title }}</h2>
+{% endfor %}
+<h1>Bad Books</h1>
+{% for book in bad_books %}
+    <h2>{{ book.title }}</h2>
+{% endfor %}
+</body>
+</html>
