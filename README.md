@@ -41,7 +41,8 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 ---
-
+📁 Project Structure
+```bash
 quira-django/
 ├── blog/               # Main blog app
 ├── core/               # Django project settings
@@ -50,4 +51,5 @@ quira-django/
 ├── media/              # Uploaded media files
 ├── manage.py
 └── requirements.txt
-
+```
+پ
